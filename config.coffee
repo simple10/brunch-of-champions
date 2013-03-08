@@ -33,10 +33,10 @@ exports.config =
           'vendor/scripts/bootstrap-2.3.1/collapse.js',
           'vendor/scripts/bootstrap-2.3.1/dropdown.js',
           'vendor/scripts/bootstrap-2.3.1/modal.js',
-          'vendor/scripts/bootstrap-2.3.1/popover.js',
           'vendor/scripts/bootstrap-2.3.1/scrollspy.js',
           'vendor/scripts/bootstrap-2.3.1/tab.js',
           'vendor/scripts/bootstrap-2.3.1/tooltip.js',
+          'vendor/scripts/bootstrap-2.3.1/popover.js',
           'vendor/scripts/bootstrap-2.3.1/transition.js',
           'vendor/scripts/bootstrap-2.3.1/typeahed.js'
         ]
