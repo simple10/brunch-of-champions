@@ -7,29 +7,22 @@ based on [Chaplin](http://chaplinjs.org) framework.
 
 Requires Brunch 1.4+.
 
-## Getting started
-* Create new project via executing `brunch new <project name>`.
-Brunch with chaplin is a default application skeleton for Brunch,
-so you don't need to specify `--skeleton` option for the command.
-* Build the project with `brunch b` or `brunch w`.
-* Open the `public/` dir to see the result.
-* Write your code.
 
-Example application built with the skeleton:
-[Ost.io](https://github.com/paulmillr/ostio).
+
+## Getting started
+
+```bash
+brunch new <project name> --skeleton
+cd <project name>
+npm start
+```
 
 See [Chaplin site](http://chaplinjs.org) for docs and more info.
 
-## Difference from Chaplin Boilerplate
-[Chaplin Boilerplate](https://github.com/chaplinjs/chaplin-boilerplate)
-is a official boilerplate all for chaplin. This skeleton is almost the same,
-except a few changes:
 
-* Added Header.
-* CommonJS is used instead of AMD, because it's easier to use & debug.
 
 ## Features
-* HTML5Boilerplate html & css are included.
+* Twitter Bootstrap JS & CSS are included.
 * CoffeeScript + Stylus + Handlebars as app languages
 (you can change this to anything you want)
 * Backbone as main MVC/MVP library, Chaplin as meta-framework.
@@ -44,14 +37,13 @@ enforce conventions
 * A collection with additional manipulation methods for smarter change events
 * A collection view for easy and intelligent list rendering
 
-## Authentication
-If you build an application with authentication, there are some useful abstractions for it out there: https://github.com/chaplinjs/chaplin-auth.
+
 
 ## License
 The MIT license.
 
+Copyright (c) 2012 Joe Johnston (http://simple10.com/)
 Copyright (c) 2012 Paul Miller (http://paulmillr.com/)
-
 Copyright (c) 2012 Moviepilot GmbH, 9elements GmbH et al.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
