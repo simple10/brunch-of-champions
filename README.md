@@ -12,7 +12,7 @@ Requires Brunch 1.4+.
 ## Getting started
 
 ```bash
-brunch new <project name> --skeleton
+brunch new <project name> --skeleton https://github.com/simple10/brunch-of-champions.git
 cd <project name>
 npm start
 ```
